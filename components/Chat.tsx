@@ -1,1 +1,3 @@
-export default function Chat() { return <div>Chat Window</div>; }
+export default function Chat() {
+  return <div>This is the Chat component.</div>;
+}
