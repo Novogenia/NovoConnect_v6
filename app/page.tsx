@@ -1,1 +1,5 @@
-export default function Page() { return <div>Hello Assistant</div>; }
+import { redirect } from 'next/navigation';
+
+export default function Home() {
+  return redirect('/en/default/chat');
+}
